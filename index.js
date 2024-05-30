@@ -17,13 +17,18 @@ Challenge:
    and log out "no duplicates".
 */
 
-if()
+if(shoppingList.includes(itemInput.value)){
+    console.log('no duplicates')
+}
 else{
+    shoppingList.push(itemInput.value)
+
+    render() 
     
 }
 
-        shoppingList.push(itemInput.value)
-        render()        
+        
+               
         itemInput.value = '' 
 })
 
